@@ -36,7 +36,7 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
-    text-shadow: 3px 3px 2px #FFA645;
+    text-shadow: 3px 3px 2px #FFA645, -3px -3px 2px #FFA645, 4px 0px 2px #FFA645
     
   }
 
@@ -94,6 +94,16 @@
     word-wrap: break-word;
     position: relative;
     bottom: -70px;
+    transition: all .3s ease-in-out;
+}
+
+.card__btn:hover {
+    box-shadow: 2px 2px 2px #FFA645, -2px -2px 2px #FFA645;
+    color: aliceblue;
+}
+
+.card__btn:active {
+    background-color: white;
 }
 
   .card__footer {
