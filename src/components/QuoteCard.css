@@ -1,0 +1,154 @@
+
+                
+
+
+.card {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+.card__container {
+    display: grid;
+    gap: 3rem;
+    position: relative;
+    margin-bottom: 13rem;
+    top: 40px;
+    
+}
+
+
+  .card__title {
+    border: 3px solid #FFA645;
+    width: 194px;
+    height: auto;
+    top: 113px;
+    left: 91px;
+    border: 3px;
+    font-weight: 400;
+    color: white;
+
+    margin: 0 auto;                    
+    /*tipografia*/
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-shadow: 3px 3px 2px #FFA645;
+    
+  }
+
+
+  
+  .card__phrase {
+    width: 339.92px;
+    height: 119.06px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: white; 
+    border-radius: 7px 7px 40px 7px; 
+    border: 1.50px #6894B4 solid;
+    text-align: center; 
+    color: #727272; 
+    font-size: 16px;  
+    font-weight: 400; 
+    overflow: hidden;
+    position: relative;
+    bottom: -50px;
+  }
+
+  .card__phrase::before {
+    content: "          ";
+    width: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    border-top: 35px solid rgb(255, 255, 255);
+    border-radius: 7px 2px 100% 0;
+    box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.74);
+    
+  }
+
+ 
+
+
+.card__btn {
+    margin: 0 auto;
+    width: 168px; 
+    height: 37px; 
+    background: #FFA645; 
+    border-radius: 7px; 
+    border: 1.50px #893446 solid;
+    cursor: pointer;
+    align-items: center; 
+    color: #893446; 
+    font-size: 16px; 
+    font-family: Fredoka; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    position: relative;
+    bottom: -70px;
+}
+
+  .card__footer {
+    width: 195px;
+    height: 32px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.70);
+    color: #727272;
+    font-size: small;
+
+  }
+
+  @media (min-width: 600px) { 
+    .card__title {
+        width: 245.98px;
+        height: 55.79px;
+        top: 96px;
+        left: 524.56px;
+        border: 3.8px;
+        /*tipografia*/
+        font-family: Fredoka;
+        font-size: 30.43px;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .card__phrase {
+        /*layout*/
+        width: 467px;
+        height: 159px;
+        font-size: 20px;
+    }
+
+    
+  .card__phrase::before {
+    content: "          ";
+    width: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    border-top: 40px solid rgb(232, 230, 230);
+    border-radius: 7px 2px 100% 0;
+    box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.74);
+  }
+
+    .card__footer {
+        width: 245px;
+        height: 38px;
+        font-size: medium;
+    }
+
+  }
