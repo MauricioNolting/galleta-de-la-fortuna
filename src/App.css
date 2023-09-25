@@ -1,6 +1,7 @@
 .app {
     background-size: cover;
     background-position: center;
+    height: 100%;
 }
 
 .app.bg1 {
