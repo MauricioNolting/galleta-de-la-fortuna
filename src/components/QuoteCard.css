@@ -94,7 +94,7 @@
     word-wrap: break-word;
     position: relative;
     bottom: -70px;
-    transition: all .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out, color .3s
 }
 
 .card__btn:hover {
@@ -103,7 +103,7 @@
 }
 
 .card__btn:active {
-    background-color: white;
+    transform: scale(0.95)
 }
 
   .card__footer {
